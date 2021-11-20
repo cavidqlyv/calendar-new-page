@@ -1,0 +1,10 @@
+{
+  "name": "Calendar new tab page",
+  "description": "Override the new tab page with a Calendar one",
+  "version": "0.5",
+  "incognito": "split",
+  "chrome_url_overrides": {
+    "newtab": "calendar.html"
+  },
+  "manifest_version": 2
+}
